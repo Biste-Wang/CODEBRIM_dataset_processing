@@ -115,3 +115,5 @@ Through xml_trans.py and xml_seri.py above, we can transform the original annota
 	</object>
 </annotation>
 ```
+
+![image](image_0000028.jpg)
