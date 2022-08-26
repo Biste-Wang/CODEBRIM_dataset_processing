@@ -1,6 +1,6 @@
 # CODEBRIM_dataset_processing
 ### Author: [**Biste-Wang**](https://github.com/Biste-Wang)
-### A method for processing the annotation of CODEBRIM Dataset
+### A method for processing the annotations of CODEBRIM Dataset
 
 ## Dataset
 The dataset is available at: [https://doi.org/10.5281/zenodo.2620293](https://doi.org/10.5281/zenodo.2620293) 
