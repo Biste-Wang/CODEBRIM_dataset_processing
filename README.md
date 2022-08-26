@@ -1,4 +1,5 @@
 # CODEBRIM_dataset_processing
+### Author: [**Biste-Wang**](https://github.com/Biste-Wang)
 ### A method for processing the annotation of CODEBRIM Dataset
 
 ## Dataset
@@ -13,11 +14,11 @@ Please cite the paper if you make use of the content (e.g. the dataset):
 > IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019**
 
 ## File
-* [**xml_show.py**](https://github.com/Biste-Wang/CODEBRIM_dataset_processing/blob/main/xml_show.py) : Display bounding boxes and annotations on the picture 
+* [**xml_show.py**](https://github.com/Biste-Wang/CODEBRIM_dataset_processing/blob/main/xml_show.py): Display bounding boxes and annotations on the picture 
 
-* [**xml_trans.py**](https://github.com/Biste-Wang/CODEBRIM_dataset_processing/blob/main/xml_trans.py) : Extract damage categories according to the value 0/1 in the **Element \<Defect>** and rewrite the **Element \<object>**  
+* [**xml_trans.py**](https://github.com/Biste-Wang/CODEBRIM_dataset_processing/blob/main/xml_trans.py): Extract damage categories according to the value 0/1 in the **Element \<Defect>** and rewrite the **Element \<object>**  
 
-* [**xml_seri.py**](https://github.com/Biste-Wang/CODEBRIM_dataset_processing/blob/main/xml_seri.py) : Beautify files by adjusting line breaks and indentations 
+* [**xml_seri.py**](https://github.com/Biste-Wang/CODEBRIM_dataset_processing/blob/main/xml_seri.py): Beautify files by adjusting line breaks and indentations 
 
 ## Result
 Through xml_trans.py and xml_seri.py above, we can transform the original annotation format to a new style, where bridge damages are the first level annotations in xml files. And then we can convert .xml to .txt and try the open source YOLO algorithm to detect the damages of bridges.
@@ -114,5 +115,3 @@ Through xml_trans.py and xml_seri.py above, we can transform the original annota
 	</object>
 </annotation>
 ```
-
-### Author: [**Biste-Wang**](https://github.com/Biste-Wang)
